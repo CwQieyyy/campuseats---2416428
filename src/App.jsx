@@ -7,9 +7,17 @@ import Footer from './components/Footer.jsx'
 function App() {
 const [selectedVendorId, setSelectedVendorId] = useState(vendors[0].id)
 const selectedVendor = vendors.find((v) => v.id === selectedVendorId)
+const [cart, setCart] = useState([])
+
+function handleAddToCart(item) {
+setCart((prevCart) => [...prevCart, item]) // a NEW array, never cart.push()
+}
+
 return (
 <>
 <Header />
+<Header cartCount={cart.length} />
+<MenuList items={selectedVendor.menu} onAdd={handleAddToCart} />
 <main className="container">
 <section>
 <h2 className="section-title">Choose a vendor</h2>
