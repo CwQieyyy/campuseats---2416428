@@ -6,4 +6,3 @@ return (
 )
 }
 export default Footer
-Page
