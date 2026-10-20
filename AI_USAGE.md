@@ -10,7 +10,7 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - One thing the AI got wrong and how I fixed it: The existing App.jsx contained code from Week 2, including duplicated headers. I needed to replace the relevant code with the Week 1 version.
 
 ## Week 2
-- Tool(s):
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+- Tool(s): ChatGPT
+- What I asked for: Help understanding React code, fixing issues in App.jsx, and using Git safely while keeping my existing repository.
+- What I kept, changed or rejected, and why: I used the explanations to understand components, props, state, and Git commands. I checked my files and Git status to make sure my existing work was preserved.
+- One thing the AI got wrong and how I fixed it: The code had two <Header /> components, which would display the header twice. I identified the duplicate and needed to keep only the correct header with the cart count.
