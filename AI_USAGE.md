@@ -20,3 +20,10 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - What I asked for: Help with loading vendor data from JSON and adding cart functions.
 - What I kept, changed or rejected, and why: I used the suggested code and changed it to fit my existing project.
 - One thing the AI got wrong and how I fixed it:ChatGPT used the old vendors.js import. I fixed it by using fetch() to load vendors.json instead.
+
+
+## Week 4
+- Tools used: ChatGPT.
+- What I asked for: Help with custom hooks, Context API, React Router and the estimated pickup time feature.
+- What I kept, changed or rejected, and why: I used the suggested code and adjusted it to fit my existing CampusEats project.
+- One thing the AI got wrong and how I fixed it: The website showed a white screen because one file was not saved. I saved the file and refreshed the website.

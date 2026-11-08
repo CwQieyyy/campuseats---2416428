@@ -144,5 +144,22 @@
         "available": true
       }
     ]
+  },
+  {
+    "id": "2410152-kafe-salahuddin",
+    "name": "Kafe Mahallah Salahuddin",
+    "location": "Mahallah Salahuddin, Ground Floor",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      { "id": "2410152-salah-1", "name": "Nasi Goreng", "description": "Fried rice with vegetables and meat", "price": 7.5, "category": "Rice", "available": true },
+      { "id": "2410152-salah-2", "name": "Mie Goreng", "description": "Fried noodles with vegetables and meat", "price": 6.0, "category": "Noodles", "available": true },
+      { "id": "2410152-salah-3", "name": "Sirap ais", "description": "Cold syrup drink", "price": 2.5, "category": "Drinks", "available": false },
+      { "id": "2410152-salah-4", "name": "Nasi Lemak Ayam", "description": "Fragrant coconut rice with fried chicken, anchovies, peanuts, and sambal", "price": 8.5, "category": "Rice", "available": true },
+      { "id": "2410152-salah-5", "name": "Kuey Teow Goreng", "description": "Stir-fried flat rice noodles with egg, bean sprouts, and chives", "price": 6.5, "category": "Noodles", "available": true },
+      { "id": "2410152-salah-6", "name": "Teh Tarik", "description": "Malaysian style pulled milk tea", "price": 2.8, "category": "Drinks", "available": true },
+      { "id": "2410152-salah-7", "name": "Roti Canai Kosong", "description": "Flaky flatbread served with dhal and sambal", "price": 1.5, "category": "Breakfast", "available": true },
+      { "id": "2410152-salah-8", "name": "Roti Telur", "description": "Flatbread stuffed with egg and onions", "price": 3.0, "category": "Breakfast", "available": true }
+    ]
   }
 ]
